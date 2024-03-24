@@ -242,7 +242,7 @@ void CScene::play()
     while (1)
     {
         key = getch();
-        if (key >= '0' && key <= '9')
+        if (key >= '1' && key <= '9')
         {
             CCommand oCommand(this);
             if (!oCommand.execute(key - '0'))
